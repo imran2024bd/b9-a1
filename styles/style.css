@@ -13,31 +13,32 @@
 
 .banner {
     background-image: url("../resources/BannerImage.png");
-    width: 1043px;
-    height: 480px;
+    width: 1320px;
+    height: 608px;
     flex-shrink: 0;
     border-radius: 13px;
+    display: flex;
 }
 
 .banner .banner-text {
-    margin-top: 233px;
+    margin: 110px auto;
     padding-top: 100px;
+    text-align: center;
+    font-family: Merriweather;
+    gap: 16px;
+    
 }
 
 .banner .banner-text h3 {
     color: #FFF;
-    text-align: center;
-    font-family: Merriweather;
     font-size: 25px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 316;
     line-height: normal;
 }
 
 .banner .banner-text p {
     color: #FFF;
-    text-align: center;
-    font-family: Merriweather;
     width: 499px;
     font-size: 57px;
     font-style: normal;
