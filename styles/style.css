@@ -4,3 +4,43 @@
     margin: 0;
     padding: 0;
 }
+
+.container {
+    max-width: 78%;
+    max-width: 1040;
+    margin: 0 auto;
+}
+
+.banner {
+    background-image: url("../resources/BannerImage.png");
+    width: 1043px;
+    height: 480px;
+    flex-shrink: 0;
+    border-radius: 13px;
+}
+
+.banner .banner-text {
+    margin-top: 233px;
+    padding-top: 100px;
+}
+
+.banner .banner-text h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.banner .banner-text p {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    width: 499px;
+    font-size: 57px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+}
