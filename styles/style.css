@@ -167,6 +167,57 @@ span {
     background: rgb(236, 52, 28);
     font-size: 16px;
     width: 103px;
-    height: 20px ;
+    height: 20px;
     text-transform: uppercase;
 }
+
+#packege .comming {
+    display: flex;
+}
+
+.ellipse-img {
+    width: 288px;
+    height: 288px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#packege .comming p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+
+#packege .comming h4 {
+    color: #F00;
+    text-align: left;
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#packege .comming h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+#packege .comming h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
