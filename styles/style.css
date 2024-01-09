@@ -8,7 +8,7 @@
 .container {
     max-width: 78%;
     max-width: 1040;
-    margin: 0 auto;
+    margin: 120px auto;
 }
 
 .banner {
@@ -20,8 +20,7 @@
     display: flex;
     background-color: rgba(7, 2, 17, 0.00);
 
-1x
-
+    1x
 }
 
 .banner .banner-text {
@@ -30,7 +29,7 @@
     text-align: center;
     font-family: Merriweather;
     gap: 16px;
-    
+
 }
 
 .banner .banner-text h3 {
@@ -48,4 +47,96 @@
     font-style: normal;
     font-weight: 900;
     line-height: 95px;
+}
+
+#categories .section-heading * {
+    gap: 25px;
+}
+
+#categories .discount {
+    text-align: center;
+    font-family: Inter;
+}
+
+#categories .discount h2 {
+    color: #F00;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#categories .discount p {
+    color: #F00;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#categories .discount h3 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#categories .new-img {
+    width: 634px;
+    height: 395px;
+    margin: 0 auto;
+}
+
+#midnight h2 p {
+    margin: 110px auto;
+    padding-top: 100px;
+    text-align: left;
+    font-family: Merriweather;
+    gap: 16px;
+}
+
+#midnight .midnight-img {
+    background-image: url('../resources/Vectorrr.png');
+    width: 1320px;
+    height: 600px;
+    background-position: center;
+    margin: 0 auto;
+}
+
+#midnight .welcom-heading h2 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 51px;
+    margin-bottom: 24px;
+    width: 507px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+}
+
+#midnight .welcom-heading p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 14px;
+    width: 551 px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+#midnight .welcom-heading h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
 }
