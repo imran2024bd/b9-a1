@@ -179,8 +179,8 @@ span {
     width: 288px;
     height: 288px;
     border-radius: 364.844px;
-    
-    
+
+
 }
 
 #packege .comming p {
@@ -222,3 +222,41 @@ span {
     line-height: normal;
 }
 
+.portfolio-img .portfolio-img-1 {
+    width: 335px;
+    height: 356px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#portfolio .awesome .portfolio-img-1 {}
+
+#newsletter {
+    background-color: antiquewhite;
+    border-radius: 16px;
+    width: 1320px;
+    height: 616px;
+
+
+}
+
+.footer-section {
+    width: 1600px;
+    height: 609px;
+    background: #070211;
+}
+
+.des {
+    display: flex;
+    text-align: end;
+}
+
+.footer-section p ul {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+}
