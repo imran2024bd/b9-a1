@@ -178,8 +178,9 @@ span {
 .ellipse-img {
     width: 288px;
     height: 288px;
-    justify-content: space-between;
-    margin-top: 30px;
+    border-radius: 364.844px;
+    
+    
 }
 
 #packege .comming p {
